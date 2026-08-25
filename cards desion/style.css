@@ -1,0 +1,36 @@
+.my-cards-wrapper {
+    display: flex;
+    gap: 20px;
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    background-color: whitesmoke;
+}
+
+.single-card {
+    background: white;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    padding: 24px;
+    width: 300px;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.first-card:hover {
+    background-color: darkslategray;
+    border-color: darkslategray;
+    color: white;
+}
+
+.first-card:hover p {
+    color: lightgray;
+}
+
+.fourth-card {
+    border-left: 4px solid transparent;
+}
+
+.fourth-card:hover {
+    border-left-color: crimson;
+}
